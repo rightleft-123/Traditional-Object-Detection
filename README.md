@@ -1,70 +1,46 @@
 # Traditional Object Detection
 
 All the codes are programed with C++ with using a RGB-D Vzense camera doing the object detection.
-The files contained in the respiratory are as follows:
 
-└─object_detection\
-    │  object_detection.sln\
-    ├─object_detection\
-    │  │  image_preprocessing.cpp\
-    │  │  image_preprocessing.h\
-    │  │  main.cpp\
-    │  │  point_cloud_processing.cpp\
-    │  │  point_cloud_processing.h\
-    │  │  vzense_sdk_parameter.cpp\
-    │  │  vzense_sdk_parameter.h\
-    │  ├─Debug\
-    │  │  └─object_detection.tlog\
-    │  └─x64\
-    │      └─Debug\
-    └─x64\
-        └─Debug\
-            ├─Config\   
-            └─Drivers\
+## Table of Contents
+
+- [Overview](#overview)
+- [Installation](#installation)
+- [Features](#features)
+- [Contributing](#contributing)
 
 ## Overview
 
 All the codes are programed with C++ with using a RGB-D Vzense camera doing the object detection.
 We make full use of the SDK provided by the manufacture and some Python library to reduce the job in object detection.
 
-## Table of Contents
+The following will show the general flow of the entire target detection algorithm scripts.
 
-- [Installation](#installation)
-- [Usage](#usage)
-- [Features](#features)
-- [Contributing](#contributing)
-- [License](#license)
+<div style="text-align:center;">
+    <img src="picture/picture1.png" alt="Image1" width="400" height="600">
+</div>
 
 ## Installation
 
-[Explain how to install your project. Include any dependencies that need to be installed and step-by-step instructions for getting your project up and running.]
-
-## Usage
-
-[Provide instructions for using your project. Include code examples or screenshots if necessary to demonstrate how to use your project.]
+This code uses an RGB-D camera from `Vzense Technologies`, so if you want to run this code successfully, you're going to have to go to the manufacturer's official website to download the supplied camera drivers and dependent packages. The rest of the common `Python` packages such as `matplotlib`, `opencv` have no special version requirements.
 
 ## Features
 
-[List the key features of your project. Highlight what makes it unique or useful.]
+The application scenarios of this project are target detection scenarios in  `traditional industrial development`, such as robotic arm gripping, large-scale palletiser handling goods and other real-time application scenarios. 
+
+The following is the final `detection effect` of this object detection script:
+<div style="text-align:center;">
+    <img src="picture/picture2.png" alt="Image2" width="750" height="400">
+</div>
+
+<div style="text-align:center;">
+    <img src="picture/picture3.png" alt="Image3" width="500" height="300">
+</div>
 
 ## Contributing
 
-[Explain how others can contribute to your project. Include guidelines for submitting bug reports, feature requests, and pull requests. Also, mention any coding standards or conventions contributors should follow.]
-
-## License
-
-[Specify the license under which your project is distributed. Include any terms or conditions associated with using or modifying your project.]
-
-## Contact
-
-[Provide contact information for yourself or your team in case users or contributors have questions or feedback.]
-
-## Acknowledgements
-
-[If your project builds upon the work of others or includes third-party libraries, tools, or resources, acknowledge them here.]
+All documents for this project were completed during my internship.
 
 ## Additional Information
 
-[Include any additional information that might be helpful for users or contributors, such as links to documentation, tutorials, or related projects.]
-
-Feel free to customize this framework to fit the specific needs and characteristics of your project. Good luck with your README.md!
+Feel free to customize this framework to fit the specific needs and characteristics of your project.
