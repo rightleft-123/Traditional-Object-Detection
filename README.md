@@ -39,7 +39,7 @@ The following is the final `detection effect` of this object detection script:
 
 ## Contributing
 
-All documents for this project were completed during my internship.
+All documents for this project were completed by my own.
 
 ## Additional Information
 
